@@ -310,4 +310,87 @@ h1 {
     50% {
         transform: translateY(-5px);
     }
+
+}
+
+/* 📱 Responsive Design Section  */
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+    .form .grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .sample-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .result-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .result-icon {
+        font-size: 42px;
+    }
+
+    .flags ul {
+        padding-left: 16px;
+    }
+
+    footer.card-footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .card {
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .field label {
+        font-size: 14px;
+    }
+
+    .field input,
+    .field select {
+        font-size: 14px;
+        padding: 10px;
+    }
 }

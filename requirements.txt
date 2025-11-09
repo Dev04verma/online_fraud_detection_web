@@ -4,7 +4,4 @@ numpy
 scikit-learn
 imbalanced-learn
 joblib
-<<<<<<< HEAD
-=======
 gunicorn
->>>>>>> fd104b8a0bc1b1402c62edd7fad84a85c7c18bab
